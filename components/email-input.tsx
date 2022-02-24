@@ -8,7 +8,7 @@ import PrimaryButton from "./primary-button";
 import invariant from "tiny-invariant";
 import { useWeb3 } from "@3rdweb/hooks";
 
-export default function QuizQuestion() {
+export default function EmailInput() {
   const [email, setEmail] = useState<string>("");
   const [submitting, setSubmitting] = useState(false);
   const { address, provider } = useWeb3();

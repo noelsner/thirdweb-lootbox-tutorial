@@ -1,5 +1,3 @@
-import QuizGame from "../components/quiz-game";
-import quizQuestions from "../lib/questions";
 import EmailInput from "../components/email-input";
 
 export function getStaticProps() {
